@@ -1,0 +1,320 @@
+@media screen and (max-width: 1088px) 
+{
+    .menuContainer
+    {
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
+    .menuHamburguer
+    {
+        display: flex;
+        position: fixed;
+        right: 0;
+        box-shadow: 0px 0px 0px 1px  rgb(196, 196, 196);
+        height: 100rem;
+        align-items: center;
+        width: 30vw;
+        padding: 1rem;
+        text-align: right;
+    }
+    .menuHamburgIcon{
+        position: fixed;
+        right: 0;
+        margin-right: 13%;
+        display: flex;
+        cursor: pointer;
+    }
+    .menuHamburguer ul
+    {
+        margin-top: 27rem;
+        list-style: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: rgb(253, 68, 0);
+        background-color: rgba(196, 196, 196, 0);
+        position: fixed;
+        right: 0;
+        margin-right: 2rem;
+    }
+    .menuHamburguer .closedMenu
+    {
+        background-color: rgb(65, 64, 153) ;
+        border-radius: 100%;
+        display: flex;
+        width: 1.9rem;
+        position: fixed;
+        right: 0;
+        margin-right: 2rem;
+        cursor: pointer;
+    }
+    .menuHamburguer .closedMenu h1
+    {
+        background: none;
+        color: white;
+        font-weight: 10;
+        font-size: 1.2rem;
+        margin: auto;
+    }
+    .menuHamburguer ul a
+    {
+        text-decoration: none;
+        color: rgb(253, 68, 0);
+    }
+    .menuHamburguer ul li
+    {
+        padding-bottom: 1rem;
+        background-color: rgba(196, 196, 196, 0);
+    }
+    .menuHamburguer ul a :hover
+    {
+        color: rgb(65, 64, 153);
+    }
+    #logo
+    {
+        margin-left: 8rem;
+        position: relative;
+    }
+    .firstPage
+    {/*wrapper1*/
+        max-width: 50rem;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        padding-top: 1.5rem;
+    }
+    .secondPage
+    {/*wrapper2*/
+        max-width: 50rem;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+    .containerPage3
+    {/*wrapper3*/
+        max-width: 50rem;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+    .firstPage img
+    {
+        width: 25rem;
+    }
+    .ilustracao
+    {
+        margin-top: 0rem;
+    }
+    .firstPage .txt
+    {
+        margin-top: 1rem;
+    }
+    .firstPage h1
+    {
+        font-size: 1.6rem;
+    }
+    .firstPage h2
+    {
+        font-size: 0.6rem;
+    }
+    .firstPage p
+    {
+        font-size: 0.8rem;
+    }
+    .txtp2 h1
+    {
+        font-size: 1.6rem;
+    }
+    .txtp2 h2
+    {
+        font-size: 0.7rem;
+    }
+    button
+    {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 3.763rem;
+        width: 22.625;
+        font-size: 1rem;
+    }
+    button img
+    {
+        width: 2rem;
+    }
+    .decorationPage2 img
+    {
+        width: 16rem;
+    }
+    .right2p li
+    {
+        font-size: 0.7rem;
+    }
+    .left3p h1
+    {
+        font-size: 1.6rem;
+    }
+    .left3p h2
+    {
+        font-size: 0.7rem;
+    }
+    .left3p p
+    {
+    font-size: 0.8rem;
+    }
+    .right3p img
+    {
+        width: 25rem;
+    }
+    footer
+    {
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width: 800px) 
+{
+    .firstPage
+    {/*wrapper1*/
+        max-width: 25rem;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        padding-top: 1.5rem;
+        
+    }
+    .menuHamburgIcon{
+        position: fixed;
+        right: 0;
+        margin-right: 5%;
+        display: flex;
+    }
+    .menuHamburguer
+    {
+        display: flex;
+        position: fixed;
+        right: 0;
+        box-shadow: 0px 0px 0px 1px  rgb(196, 196, 196);
+        height: 100rem;;
+        align-items: center;
+        width: 100vw;
+        padding: 1rem;
+        text-align: right;
+    }
+    .menuHamburguer .opitionsH{
+        height: auto;
+        width: auto;    
+    }
+    .menuHamburguer ul
+    {
+        font-size: 1.3rem;
+        background-color: rgba(196, 196, 196, 0);
+    }
+    .secondPage
+    {/*wrapper2*/
+        max-width: 25rem;
+        width: 100%;
+        align-items:center;
+        display: grid;
+        margin: auto;
+    }
+    .containerPage3
+    {/*wrapper3*/
+        max-width: 45rem;
+        width: 100%;
+        align-items: center;
+        display:flex;
+        margin-left: auto;
+        margin-right: auto;
+        height: 20rem;
+    }
+    .firstPage img
+    {
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
+    .firstPage .ilustracao
+    {
+        visibility: hidden;
+        opacity: 0;
+        width: 0;
+        display: none;
+    }
+    .firstPage .txt
+    {
+        margin-top: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: auto;
+    }
+    #menu{
+        width: 100%;
+        padding-left: 2rem;
+    }
+    #logo{
+        margin-left: 0rem;
+    }
+    .left2p{
+        width: 100%;
+        height: 12rem;
+    }
+    .right2p
+    {
+        width: 100%;
+    } 
+    .decorationPage2
+    {
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
+    button{
+        visibility: hidden;
+        opacity: 0; 
+        display: none;
+    }
+    .right2p ul  
+    {
+        background-color: rgb(48, 48, 51);
+    }
+    .right3p{
+        width: 0;
+        visibility: hidden;
+        opacity: 0; 
+        display: none;
+    }
+    .left3p
+    {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header
+    {
+        width: 100%;
+    }
+    .menuContainer ul
+    {
+        width: 0;
+        visibility: hidden;
+        opacity: 0; 
+    }
+    footer
+    {
+       display: flex;
+    }
+    .txtp2
+    {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

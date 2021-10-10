@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/desktop-style.css">
+    <link rel="stylesheet" href="/css/responsive-style.css">
+    <title>FCamara</title>
+</head>
+<body>
+    <header >
+        <nav id="menu">
+            <div id="logo">
+                <a href="/html/index.html">
+                    <img src="/img/logo.png" alt="logo Fcamara" class="iconFcamara">
+                </a>
+            </div>
+            <div class="menuHamburgIcon" onclick="abrirHamburguer()">
+               <img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png"/>
+            </div>
+            <div class="menuContainer">
+                <ul>
+                    <li class="quemSomos">
+                        <a href="https://www.fcamara.com.br/quem-somos">
+                            <p>
+                                quem somos
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nossaAtuacao">
+                        <div class="dropDown" onmouseleave="fechar(), removeUp()" onmouseover="abrir(), removeDown()">
+                            <div class="txtIcon">
+                                <span>
+                                    nossa atuação
+                                </span>
+                                <div class="iconSvg">
+                                    <svg class="arrowUp sumir" width="10" height="5" viewBox="0 0 10 5" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 5L5 0L10 5L0 5Z" fill="#FE4400" />
+                                    </svg>
+                                    <svg class="arrowDown " width="10" height="5" viewBox="0 0 10 5" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 0L5 5L0 0L10 0Z" fill="#303033" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="optionsMenu sumir">
+                                <a href="https://www.fcamara.com.br/marcas-mercados" class="linkOptionsMenu">marcas & mercados</a>
+                                <a href="https://www.fcamara.com.br/servicos" class="linkOptionsMenu">tecnologias</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cases">
+                        <a href="https://www.fcamara.com.br/casos-de-sucesso">
+                            <p>
+                                cases
+                            </p>
+                        </a>
+                    </li>
+                    <li class="carreira">
+                        <a href="https://jobs.kenoby.com/fcamara/">
+                            <p>
+                                carreira
+                            </p>
+                        </a>
+                    </li>
+                    <li class="programaDeFormacao">
+                        <a href="https://digital.fcamara.com.br/programadeformacao">
+                            <p>
+                                programa de formação
+                            </p>
+                        </a>
+                    </li>
+                    <li class="blog">
+                        <a href="https://blog.fcamara.com.br">
+                            <p>
+                                blog
+                            </p>
+                        </a>
+                    </li>
+                    <li class="contato">
+                        <a href="https://www.fcamara.com.br/contato">
+                            <p>
+                                contato
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menuHamburguer sumir">
+                <div class="closedMenu" onclick="fecharHamburguer()">
+                    <h1>X</h1>
+                </div>
+                <div class="opitionsH"></div>
+                    <ul>
+                        <li class="quemSomosH">
+                            <a href="https://www.fcamara.com.br/quem-somos">
+                                <p>
+                                    quem somos
+                                </p>
+                            </a>
+                        </li>
+                        <li class="quemSomosH">
+                                    <a href="https://www.fcamara.com.br/marcas-mercados" class="linkOptionsMenu">marcas & mercados</a>
+                        </li>
+                        <li class="quemSomosH">
+                            <a href="https://www.fcamara.com.br/servicos" class="linkOptionsMenu">tecnologias</a>
+                        </li>
+                        <li class="casesH">
+                            <a href="https://www.fcamara.com.br/casos-de-sucesso">
+                                <p>
+                                    cases
+                                </p>
+                            </a>
+                        </li>
+                        <li class="carreiraH">
+                            <a href="https://jobs.kenoby.com/fcamara/">
+                                <p>
+                                    carreira
+                                </p>
+                            </a>
+                        </li>
+                        <li class="programaDeFormacaoH">
+                            <a href="https://digital.fcamara.com.br/programadeformacao">
+                                <p>
+                                    programa de formação
+                                </p>
+                            </a>
+                        </li>
+                        <li class="blogH">
+                            <a href="https://blog.fcamara.com.br">
+                                <p>
+                                    blog
+                                </p>
+                            </a>
+                        </li>
+                        <li class="contato">
+                            <a href="https://www.fcamara.com.br/contato">
+                                <p>
+                                    contato
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="fp">
+        <div class="firstPage">
+            <div class="ilustracao">
+                <img src="/img/Lado-bom-do-retorno.png" alt="ilustrção de pessoas trabalhando com distanciamento">
+            </div>
+            <div class="txt">
+                <h2>REABETURA COM SEGURANÇA E OPCIONAL</h2><br>
+                <h1>Sangue Laranjas de<br>
+                    volta ao escritorio?
+                </h1><br>
+                <p>
+                    com muito cuidado e segurança estamos <br>
+                    planejando a reabertura da nossa empresa.<br>
+                    Estamosmuito felizes com essa novidade,<br>
+                    mas sabemos que não será como antes<br>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="fundoSecondPage">
+        <div class=secondPage>
+            <div class="left2p">
+                <div class="txtp2">
+                    <h2>FIQUE ATENTO AS NOVAS NORMAS</h2>
+                    <h1>Informações sobre<br>
+                        a reabertura do<br>
+                        escritorio</h1>
+                </div>
+                <div class="button">
+                    <a href="/html/index.html">
+                        <button> Agende já o seu retorno
+                            <img src="/img/seta.png" alt="seta direcionada para direita" class="seta">
+                        </button>
+                    </a>
+                </div>
+                <div class="decorationPage2">
+                    <img src="/img/decorationPage2.png" alt="">
+                </div>
+            </div>
+            <div class="right2p">
+                <ul>
+                    <li>
+                        <p class="teste">escritórios voltarão a ficar abertos no horário das 8h às 18h.</p>
+
+                    </li>
+                    <li>
+                        <p class="teste">Nós temos 2 escritórios: um em São Paulo (principal) e outro<br>
+                            em Santos (filial).</p>
+
+                    </li>
+                    <li>
+                        <p class="teste">O retorno ao escritório só é possível através de um sistema de<br>
+                            agendamento, onde os #SangueLaranjas poderão optar qual<br>
+                            escritório ir, além de escolher data e também a estação de<br>
+                            trabalho demarcada com um número.</p>
+                    </li>
+                    <li>
+                        <p class="teste">Será medida a temperatura ao chegar no escritório.</p>
+                    </li>
+                    <li>
+                        <p class="teste">Todos os consultores deverão usar máscaras dentro das<br>
+                            acomodações dos escritórios.</p>
+                    </li>
+                    <li>
+                        <p class="teste">Nas mesas existem adesivos sinalizando onde os<br>
+                            #SangueLaranjas devem sentar, para que haja o distanciamento<br>
+                            necessário.</p>
+
+                    </li>
+                    <li>
+                        <p class="teste">Pessoas que estiverem sentindo algum sintoma não devem ir<br>
+                            trabalhar presencialmente, a indicação é para que<br>
+                            permaneçam em casa.</p>
+
+                    </li>
+                    <li>
+                        <p class="teste">Os escritórios só podem comportar até 40% dos consultores,
+                            conforme a legislação.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="page3">
+        <div class="containerPage3">
+            <div class="left3p">
+                <h2>SEGURANÇA EM PRIMEIRO LUGAR!</h2><br>
+                <h1>O retorno aos escritorios<br>
+                    é opicional
+                </h1><br>
+                <p>
+                    Voltar aos escritórios é algo opcional! Ou seja, para quem <br>
+                    ainda não se sente à vontade para ir, ou mora fora das <br>
+                    regiões onde estão os escritórios, irá permanecer em casa.
+                </p>
+            </div>
+            <div class="right3p">
+                <img src="/img/61013448fc6caee3b4bb8bbb8514780c - Copia.png"
+                    alt="ilustrção de pessoa trabalhando homeoficie">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>@Desenvolvido por @carlos_gdaj</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="/JS/main.js"></script>
+</body>
+</html>

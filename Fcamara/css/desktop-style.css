@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+*{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(254, 253, 253);
+}
+#logo{
+    align-items: center;
+    height: 23px;
+}
+#menu{/*é o nav*/
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 67.5rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.menuContainer{/*div do menu*/
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.menuContainer ul{/*a lista completa*/
+    width: 56.5rem;
+    height: 1.625rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0rem;
+    margin-left: 7rem;
+}
+.menuContainer li{/*os itens da lista*/
+    margin-right: 1.75rem;
+    list-style:none;
+}
+.menuContainer a{/*link menu*/
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: 500;
+}
+.menuContainer span{/*nossa atuação*/
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: 500;
+    margin-left: 10px;
+}
+.menuContainer .nossaAtuacao{
+    margin-right: -0.5rem;
+}
+.menuContainer span:hover{/*nossa atuação*/
+    color: rgb(255, 85, 22);
+    transition: 0.5s;
+}
+.menuContainer a :hover{
+    color: rgb(255, 85, 22);
+    transition: 0.5s;
+}
+.menuHamburgIcon{
+    display: none;
+    right: 0;
+    margin-right: 13%;
+}
+/* menu dropdown */
+.dropDown{
+border-radius: 0.5rem;
+height: 3rem;
+}
+.txtIcon{
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+}
+.iconSvg{
+    position: relative;
+    height: 1.5rem;
+    width: 1rem;
+}
+.iconSvg .arrowUp{
+    position: absolute;
+    top: 0.5rem;
+}
+.iconSvg .arrowDown{
+    position: absolute;
+    top: 0.7rem;
+}
+.optionsMenu{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 12.5rem;
+    margin-top: 1rem;
+}
+.optionsMenu a{
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-left: 0.9rem ;
+    padding-right: 0.9rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+a.linkOptionsMenu:hover{
+    color: rgb(255, 85, 22);
+    background-color: rgb(236, 235, 235);
+    transition: 0.5s;
+}
+header{/*div do cabecalho*/
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    align-items: center;
+}
+.firstPage{/*primeira pagina*/
+    max-width: 67.5rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+.firstPage .txt{
+    margin-top: 8.5rem;
+    margin-left: 3rem;
+    width: auto;
+    height: auto;
+}
+.firstPage h1{
+    color: rgb(255, 85, 22);
+    font-size: 2.5rem;
+}
+.firstPage h2{
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.firstPage p{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.ilustracao{/*imagem 1 page*/
+    margin-top: 5rem;
+    width: auto;
+    height: auto;
+}
+.fundoSecondPage{/*section segunda pagina*/
+    background-color: rgb(48, 48, 51);
+    height: auto;
+}
+section{/*all section*/
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.fp{/*section 1 page*/
+    /*height: 42rem; aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+}
+.secondPage{
+    max-width: 67.5rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    background-color: rgb(48, 48, 51);
+}
+.left2p{/*lado esquerdo 2 page*/
+    width: 50%;
+    height: auto;
+    background-color: rgb(48, 48, 51);
+}
+.right2p{/*lado direito 2 page*/
+    width: 50%;
+    height: auto;
+    background-color: rgb(48, 48, 51);
+    padding-left: 1.15rem;
+}
+.txtp2{/*txto esquerdo pagr2*/
+    background-color: rgb(48, 48, 51);
+}
+.button{/*div button*/
+    background-color: rgb(48, 48, 51);
+}
+.txtp2 h1{/*titulo page 2*/
+    color: white;
+    background-color: rgb(48, 48, 51);
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.txtp2 h2{/*sub titulo page 2*/
+    color: rgb(255, 85, 22);
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(48, 48, 51);
+}
+button{/*todos butoes da pagina*/
+    background-color: rgb(255, 85, 22);
+    border-radius: 0.938rem;
+    border-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 4.563rem;
+    width: 24.625;
+    font-size: 1.5rem;
+
+}
+button img{/*setinha dentro do button*/
+    background-color: rgba(255, 85, 22, 0%);
+    width: 2.75rem;
+    padding-left: 0.65rem;
+}
+.button a {/*link do button*/
+    text-decoration: none;
+}
+.button a :hover{/*animação mousehover button*/
+    background-color: rgb(253, 68, 0);
+}
+.decorationPage2{/*div imagens de decoração page2*/
+    background-color: rgb(48, 48, 51);
+}
+.decorationPage2 img{/*imagens de decoração page2*/
+ background-color: rgb(48, 48, 51);
+ width: 23rem;
+ padding-top: 2.5rem;
+}
+.right2p ul li{
+    background-color: rgb(48, 48, 51);
+}
+.right2p li{
+    color: rgb(255, 85, 22);
+    padding-top: 1.16rem;
+}
+.teste{
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 48, 51);
+}
+.containerPage3{
+    max-width: 67.5rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+.left3p{/*lado esquerdo 3 page*/
+    width: 50%;
+    height: auto;
+}
+.right3p{/*lado direito 3 page*/
+    width: 50%;
+    height: auto;
+}
+.left3p h1{
+    color: rgb(255, 85, 22);
+    font-size: 2.5rem;
+}
+.left3p h2{
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.left3p p{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.right3p img{
+    width: 34rem;
+    padding-left: 3.9rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(48, 48, 51);
+    color: rgb(224, 224, 224);
+    font-weight: 300;
+}
+footer p{
+    background-color: rgb(48, 48, 51);
+}
+.menuHamburguer
+{
+display: none;
+}
+/*JS*/
+.sumir{
+    visibility: hidden;
+    opacity: 0;
+}
